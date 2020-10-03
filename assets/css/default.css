@@ -1,0 +1,74 @@
+
+h1 {
+    color: #fffffe;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    font-size: 3.6rem;
+    line-height: 1.15;
+    letter-spacing: -1px;
+    white-space: break-spaces;
+    font-family: 'Proxima Nova Bold';
+}
+
+h2 {
+    color: #fffffe;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    line-height: 1.3;
+}
+
+h3 {
+    color: #fffffe;
+    margin: 0px;
+    font-size: 2rem;
+    line-height: 30px;
+}
+
+h4 {
+    color: #fffffe;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    line-height: 24px;
+}
+
+h5 {
+    color: #9656a1;
+}
+
+h6 {
+    color: #271c19;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    color: #fff3ec;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    font-family: 'Proxima Nova Regular';
+}
+
+.text-right {
+    text-align: right;
+}
+
+.btn-primary {
+    padding: 1.2rem 2rem;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(255, 192, 173);
+    color: rgb(39, 28, 25);
+    margin-top: 2.5rem;
+    text-decoration: none;
+}
+
+.section {
+    margin: auto;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}

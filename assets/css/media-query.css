@@ -1,0 +1,290 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+@media (max-width: 1050px) {
+    h1 {
+        white-space: initial;
+    }
+}
+
+@media (max-width: 991px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    #hero-container {
+        padding-top: 2.5rem;
+        padding-bottom: 3.5rem;
+    }
+
+    .hues-button .hues-title {
+        font-size: 0.8rem;
+    }
+
+    .hero-info-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .hero-info-container .left {
+        width: 100%;
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+    }
+
+    .hero-info-container .right {
+        width: 100%;
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+
+    .hues-button {
+        width: 49%;
+    }
+
+    .logo-container {
+        text-align: center;
+    }
+
+    .menu-container ul {
+        text-align: center;
+    }
+
+    .hero-info-container .right {
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .menu-container ul li a {
+        font-size: 1.1rem;
+    }
+
+    #section-hues {
+        margin-top: 4rem;
+    }
+
+    .card-item {
+        width: 95%;
+        margin-bottom: 15px;
+        padding: 1.5rem;
+    }
+
+    .card-item p {
+        font-size: 1.1rem;
+    }
+
+    .color-term-cards {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-line-pack: center;
+            align-content: center
+    }
+
+    #color-psychology .container {
+        width: 85%;
+    }
+
+    #color-psychology .sticky {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .bio-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .bio-container .left {
+        width: 100%;
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+    }
+
+    .bio-container .right {
+        width: 100%;
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+        text-align: left;
+    }
+
+    .section {
+        padding-top: 3.5rem;
+        padding-bottom: 5rem;
+    }
+
+    #bio .container {
+        width: 85%;
+    }
+
+    .bio-container h2 {
+        font-size: 2.5rem;
+    }
+
+    .bio-container .right img {
+        width: 50%;
+    }
+
+    .project-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .project-card-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-bottom: 4.5rem;
+    }
+
+    .input-wrap {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .form-container .btn-submit {
+        width: 100%;
+    }
+
+    .footer-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    #footer .footer-main {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .social-links ul li a {
+        font-size: 1.1rem;
+    }
+
+    .right-reserved p {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .hues-button {
+        width: 100%;
+    }
+
+    .logo-container img {
+        width: 10rem;
+        height: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .menu-container ul li a {
+        font-size: 1rem;
+    }
+
+    .bio-container .right img {
+        width: 75%;
+    }
+
+    .color-card {
+        padding: 1.5rem;
+    }
+
+}
+
+@media (max-width: 479px) {
+    .menu-container ul li {
+        display: block;
+    }
+
+    .color-card-header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .section-hues {
+        margin-top: 5rem;
+    }
+
+    .bio-container .right img {
+        width: 100%;
+    }
+
+    .bio-container p {
+        font-size: 1.1rem;
+    }
+
+    .color-card p {
+        font-size: 1rem;
+    }
+
+    .color-term-header {
+        text-align: left;
+    }
+
+    .color-term-header h2 {
+        font-size: 2.6rem;
+    }
+}

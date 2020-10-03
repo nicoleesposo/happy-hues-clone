@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Hues - Curated colors in context</title>
+    <link rel="icon" href="./assets/images/favicon.png" sizes="16x16">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/default.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/media-query.css">
+</head>
+<body>
+
+<main>
+
+    <!-- 1ST - HERO SECTION -->
+    <section id="hero-container">
+        <div class="container">
+            <div class="row">
+                <!-- for logo -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 logo-container">
+                    <img src="./assets/images/svg/happy-hues-logo.svg" alt="Happy Hues">
+                </div>
+                <!-- for navigation -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 menu-container">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">Toggle palettes</a>
+                            </li>
+                            <li>
+                                <a href="#">Toggle section colors</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 hero-info-container">
+                    <div class="left">
+                        <h1>Curated colors in context.</h1>
+                        <p>Not sure what colors to use in your designs or where to use them? Happy Hues is a color palette inspiration site that acts as a real world example as to how the colors could be used in your design projects.</p>
+                        <a href="#" class="btn-primary">Try changing the palette!</a>
+                    </div>
+                    <div class="right text-right">
+                        <img src="./assets/images/svg/hero.svg" alt="Hero">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="section-hues">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h3>This sections hues</h3>
+                    <p class="sub-title">Click to copy the hex code to your clipboard</p>
+                </div>
+
+                <!-- Elements -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h4>Elements</h4>
+                    <div class="hues-wrap">
+                        <!-- background -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle brown"></div>
+                                <div class="hues-title">Background</div>
+                            </div>
+                            <div class="hexcode">#55423d</div>
+                        </a>
+                        <!-- headline -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white"></div>
+                                <div class="hues-title">Headline</div>
+                            </div>
+                            <div class="hexcode">#fffffe</div>
+                        </a>
+                        <!-- paragraph -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white-smoke"></div>
+                                <div class="hues-title">Paragraph</div>
+                            </div>
+                            <div class="hexcode">#fff3ec</div>
+                        </a>
+                        <!-- button -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle salmon"></div>
+                                <div class="hues-title">Button</div>
+                            </div>
+                            <div class="hexcode">#ffc0ad</div>
+                        </a>
+                        <!-- button text -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle black"></div>
+                                <div class="hues-title">Button text</div>
+                            </div>
+                            <div class="hexcode">#271c19</div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Illustration -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h4>Illustration</h4>
+                    <div class="hues-wrap">
+                        <!-- stroke -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle darker-salmon"></div>
+                                <div class="hues-title">Stroke</div>
+                            </div>
+                            <div class="hexcode">#140d0b</div>
+                        </a>
+                        <!-- main -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white-smoke"></div>
+                                <div class="hues-title">Main</div>
+                            </div>
+                            <div class="hexcode">#fff3ec</div>
+                        </a>
+                        <!-- highlight -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle pink"></div>
+                                <div class="hues-title">Highlight</div>
+                            </div>
+                            <div class="hexcode">#e78fb3</div>
+                        </a>
+                        <!-- secondary -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle salmon"></div>
+                                <div class="hues-title">Secondary</div>
+                            </div>
+                            <div class="hexcode">#ffc0ad</div>
+                        </a>
+                        <!-- tertiary -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle purple"></div>
+                                <div class="hues-title">Tertiary</div>
+                            </div>
+                            <div class="hexcode">#9656a1</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2ND - COLOR TERMINOLOGY -->
+    <section id="color-terminology" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 color-term-header">
+                    <h2>Color terminology</h2>
+                    <p>Let’s learn the terminology of color. You can think of each of these as ‘levers’ that you pull to create different colors.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 color-term-cards">
+                    <!-- hue -->
+                    <div class="card-item">
+                        <div class="card-header">
+                            <img src="./assets/images/svg/hue.svg" alt="Hue">
+                            <h3>Hue</h3>
+                        </div>
+                        <p>Hue is basically a fancy name for color... Sort of. Hue refers to the parent color, or rather the fully saturated color that doesn’t have any white (tint) or black (shade) added to it.</p>
+                    </div>
+                    <!-- tint -->
+                    <div class="card-item">
+                        <div class="card-header">
+                            <img src="./assets/images/svg/tint.svg" alt="Tint">
+                            <h3>Tint</h3>
+                        </div>
+                        <p>A tint is created when you add white to a hue. When working in Figma, Sketch or any of the adobe programs, you can create a tint by lowering the saturation value of your hue.</p>
+                    </div>
+                    <!-- shade -->
+                    <div class="card-item">
+                        <div class="card-header">
+                            <img src="./assets/images/svg/shade.svg" alt="Shade">
+                            <h3>Shade</h3>
+                        </div>
+                        <p>A shade is created when you add black to a hue. Again, when working in Figma, Sketch or any of the adobe programs, you can create a shade by lowering the brightness value of your hue.</p>
+                    </div>
+                    <!-- tone -->
+                    <div class="card-item">
+                        <div class="card-header">
+                            <img src="./assets/images/svg/tone.svg" alt="Tone">
+                            <h3>Tone</h3>
+                        </div>
+                        <p>A tone is in between a tint and a shade. Basically you're adding grey, aka both white & black, to your hue.</p>
+                    </div>
+                    <!-- value -->
+                    <div class="card-item">
+                        <div class="card-header">
+                            <img src="./assets/images/svg/value.svg" alt="Value">
+                            <h3>Value</h3>
+                        </div>
+                        <p>Value refers to the measurement of brightness of a hue. Basically it's how light or dark the color is and how much light it emits.</p>
+                    </div>
+                    <!-- saturation -->
+                    <div class="card-item">
+                        <div class="card-header">
+                            <img src="./assets/images/svg/saturation.svg" alt="Saturation">
+                            <h3>Saturation</h3>
+                        </div>
+                        <p>Saturation refers to the purity of the color. High saturated colors are very vibrant and bright, while low saturated colors are kinda dull.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="section-hues">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h3>This sections hues</h3>
+                    <p class="sub-title">Click to copy the hex code to your clipboard</p>
+                </div>
+
+                <!-- Elements -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h4>Elements</h4>
+                    <div class="hues-wrap">
+                        <!-- background -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle black"></div>
+                                <div class="hues-title">Background</div>
+                            </div>
+                            <div class="hexcode">#271c19</div>
+                        </a>
+                        <!-- headline -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white"></div>
+                                <div class="hues-title">Headline</div>
+                            </div>
+                            <div class="hexcode">#fffffe</div>
+                        </a>
+                        <!-- paragraph -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white-smoke"></div>
+                                <div class="hues-title">Sub headline</div>
+                            </div>
+                            <div class="hexcode">#fff3ec</div>
+                        </a>
+                        <!-- button -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle brown"></div>
+                                <div class="hues-title">Card background</div>
+                            </div>
+                            <div class="hexcode">#55423d</div>
+                        </a>
+                        <!-- button text -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white"></div>
+                                <div class="hues-title">Card heading</div>
+                            </div>
+                            <div class="hexcode">#fffffe</div>
+                        </a>
+                        <!-- button text -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white-smoke"></div>
+                                <div class="hues-title">Card paragrpah</div>
+                            </div>
+                            <div class="hexcode">#fff3ec</div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Illustration -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h4>Illustration</h4>
+                    <div class="hues-wrap">
+                        <!-- stroke -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle darker-salmon"></div>
+                                <div class="hues-title">Stroke</div>
+                            </div>
+                            <div class="hexcode">#140d0b</div>
+                        </a>
+                        <!-- main -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white-smoke"></div>
+                                <div class="hues-title">Main</div>
+                            </div>
+                            <div class="hexcode">#fff3ec</div>
+                        </a>
+                        <!-- highlight -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle pink"></div>
+                                <div class="hues-title">Highlight</div>
+                            </div>
+                            <div class="hexcode">#e78fb3</div>
+                        </a>
+                        <!-- secondary -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle salmon"></div>
+                                <div class="hues-title">Secondary</div>
+                            </div>
+                            <div class="hexcode">#ffc0ad</div>
+                        </a>
+                        <!-- tertiary -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle purple"></div>
+                                <div class="hues-title">Tertiary</div>
+                            </div>
+                            <div class="hexcode">#9656a1</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!-- 3RD - COLOR PSYCHOLOGY -->
+    <section id="color-psychology" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="sticky">
+                        <h2>The psychology of color</h2>
+                        <p>Each color portrays a different feeling or emotion, and by understanding the psychology of color, you can choose a color that will resonate with your target audience and give off the vibe & emotion you want.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <!-- Red -->
+                    <div class="color-card">
+                        <div class="color-card-header">
+                            <h3 class="color-card-title">Red</h3>
+                            <h5 class="primary-color">Primary Color</h5>
+                        </div>
+                        <p>Red is a very emotionally & visually intense color that can actually have a physical effect on people by raising their metabolism, respiration, heart rate, as well as making them hungry. That combined by with the fact that red is very attention grabbing, you see red used in the branding of pretty much all fast food chains.</p>
+                        <h6>Often associated with</h6>
+                        <div class="tags-wrap">
+                            <div class="tag">Courage</div>
+                            <div class="tag">Power</div>
+                            <div class="tag">Strength</div>
+                            <div class="tag">Danger</div>
+                            <div class="tag">Anger</div>
+                            <div class="tag">Love</div>
+                            <div class="tag">Passion</div>
+                            <div class="tag">Romance</div>
+                        </div>
+                    </div>
+                    <!-- Yellow -->
+                    <div class="color-card">
+                        <div class="color-card-header">
+                            <h3 class="color-card-title">Yellow</h3>
+                            <h5 class="primary-color">Primary Color</h5>
+                        </div>
+                        <p>It's all about the sun, baby! Yellow is a bright & energizing color that evokes feelings of happiness & positivity. It also grabs your attention, so it makes for a great call to action, and it's why you'll see it used as warning signs or combined with red in basically all fast food logos.</p>
+                        <p>But just a heads up, studies have shown that the color yellow can trigger the anxiety centers of the brain, so don't go painting your walls a saturated yellow unless you want a short temper and crying babies.</p>
+                        <h6>Often associated with</h6>
+                        <div class="tags-wrap">
+                            <div class="tag">Sunshine</div>
+                            <div class="tag">Childish</div>
+                            <div class="tag">Fun</div>
+                            <div class="tag">Happiness</div>
+                            <div class="tag">Optimism</div>
+                            <div class="tag">Positivity</div>
+                            <div class="tag">Caution</div>
+                            <div class="tag">Anxiety</div>
+                            <div class="tag">Cowardice</div>
+                        </div>
+                    </div>
+                    <!-- Blue -->
+                    <div class="color-card">
+                        <div class="color-card-header">
+                            <h3 class="color-card-title">Blue</h3>
+                            <h5 class="primary-color">Primary Color</h5>
+                        </div>
+                        <p>Blue is a very calming color and can actually slow your metabolism (notice how there's little to no food brands that use blue in their branding). It's a broadly appealing color, which is why global companies like Facebook & Twitter use it for their logos. Although it is a broadly appealing color, it tends to be favored by men, with over 50% of men studied saying blue was their favorite color.</p>
+                        <h6>Often associated with</h6>
+                        <div class="tags-wrap">
+                            <div class="tag">Calmness</div>
+                            <div class="tag">Tranquility</div>
+                            <div class="tag">Stability</div>
+                            <div class="tag">Loyalty</div>
+                            <div class="tag">Faith</div>
+                            <div class="tag">Heaven</div>
+                            <div class="tag">Loneliness</div>
+                            <div class="tag">Sadness</div>
+                        </div>
+                    </div>
+                    <!-- Green -->
+                    <div class="color-card">
+                        <div class="color-card-header">
+                            <h3 class="color-card-title">Green</h3>
+                            <h5 class="primary-color">Secondary Color</h5>
+                        </div>
+                        <p>Green is the color of nature. It's soothing on the eyes and can promote healing... Seriously, it can lower your blood pressure, calm your mind and also suppress your appetite. Green is a great choice is your brand is associated with nature, health or money.</p>
+                        <h6>Often associated with</h6>
+                        <div class="tags-wrap">
+                            <div class="tag">Health</div>
+                            <div class="tag">Nature</div>
+                            <div class="tag">Environment</div>
+                            <div class="tag">Cleanliness</div>
+                            <div class="tag">Safety</div>
+                            <div class="tag">Growth</div>
+                            <div class="tag">Money</div>
+                            <div class="tag">Greed</div>
+                            <div class="tag">Envy</div>
+                        </div>
+                    </div>
+                    <!-- Orange -->
+                    <div class="color-card">
+                        <div class="color-card-header">
+                            <h3 class="color-card-title">Orange</h3>
+                            <h5 class="primary-color">Secondary Color</h5>
+                        </div>
+                        <p>Orange is the less aggressive baby brother of red. It's highly visible (though less so than red) which is why you'll see it used in construction and safety hunting equipment. It makes for a great call to action.</p>
+                        <h6>Often associated with</h6>
+                        <div class="tags-wrap">
+                            <div class="tag">Friendliness</div>
+                            <div class="tag">Energy</div>
+                            <div class="tag">Adventure</div>
+                            <div class="tag">Enthusiasm</div>
+                            <div class="tag">Creativity</div>
+                            <div class="tag">Fun</div>
+                            <div class="tag">DIY</div>
+                        </div>
+                    </div>
+                    <!-- Purple -->
+                    <div class="color-card">
+                        <div class="color-card-header">
+                            <h3 class="color-card-title">Purple</h3>
+                            <h5 class="primary-color">Secondary Color</h5>
+                        </div>
+                        <p>Purple thinks it's better than all the other peasant colors. Lol, jk ;) Purple just has a history of being the color of superiority, being used by royalty to flaunt their position & power. It's associated with power, nobility, prestige & luxury. Purple can fall on both the warm and the cool side of the color wheel depending on how much red vs blue is added.</p>
+                        <h6>Often associated with</h6>
+                        <div class="tags-wrap">
+                            <div class="tag">Royalty</div>
+                            <div class="tag">Luxury</div>
+                            <div class="tag">Sophistication</div>
+                            <div class="tag">Magic</div>
+                            <div class="tag">Spirituality</div>
+                            <div class="tag">Moodiness</div>
+                        </div>
+                    </div>
+                    <!-- White -->
+                    <div class="color-card">
+                        <div class="color-card-header">
+                            <h3 class="color-card-title">White</h3>
+                            <h5 class="primary-color">Neutral Color</h5>
+                        </div>
+                        <p>White is the blank canvas color that has all sorts of meanings to it. It's connected to cleanliness, virtue, purity, innocence... In North American cultures that is. In other parts of the world it can have an opposite meaning.</p>
+                        <p>White pairs great with basically any color on the spectrum. It has high contrast with pretty much all other colors and allows other colors to shine through, so it's a great choice for background colors.</p>
+                        <h6>Often associated with</h6>
+                        <div class="tags-wrap">
+                            <div class="tag">Innocence</div>
+                            <div class="tag">Purity</div>
+                            <div class="tag">Cleanliness</div>
+                            <div class="tag">Virtue</div>
+                            <div class="tag">Sterile</div>
+                            <div class="tag">Plain</div>
+                            <div class="tag">Empty</div>
+                        </div>
+                    </div>
+                    <!-- Black -->
+                    <div class="color-card">
+                        <div class="color-card-header">
+                            <h3 class="color-card-title">Black</h3>
+                            <h5 class="primary-color">Neutral Color</h5>
+                        </div>
+                        <p>Black is a very powerful color... Well kind of. Black is the absence of color (ie light), which means it is not really a color itself. It has very high contrast, especially with white, so it's a popular color to use on the web.</p>
+                        <h6>Often associated with</h6>
+                        <div class="tags-wrap">
+                            <div class="tag">Power</div>
+                            <div class="tag">Elegance</div>
+                            <div class="tag">Sophistication</div>
+                            <div class="tag">Mystery</div>
+                            <div class="tag">Fear</div>
+                            <div class="tag">Death</div>
+                            <div class="tag">Sadness</div>
+                            <div class="tag">Evil</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row section-hues">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h3>This sections hues</h3>
+                    <p class="sub-title">Click to copy the hex code to your clipboard</p>
+                </div>
+
+                <!-- Elements -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="hues-wrap">
+                        <!-- background -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle brown"></div>
+                                <div class="hues-title">Background</div>
+                            </div>
+                            <div class="hexcode">#55423d</div>
+                        </a>
+                        <!-- headline -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white"></div>
+                                <div class="hues-title">Headline</div>
+                            </div>
+                            <div class="hexcode">#fffffe</div>
+                        </a>
+                        <!-- paragraph -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white-smoke"></div>
+                                <div class="hues-title">Paragraph</div>
+                            </div>
+                            <div class="hexcode">#fff3ec</div>
+                        </a>
+                        <!-- card background -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle salmon"></div>
+                                <div class="hues-title">Card background</div>
+                            </div>
+                            <div class="hexcode">#ffc0ad</div>
+                        </a>
+                        <!-- card headline -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle black"></div>
+                                <div class="hues-title">Card headline</div>
+                            </div>
+                            <div class="hexcode">#271c19</div>
+                        </a>
+                        <!-- card paragraph -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle black"></div>
+                                <div class="hues-title">Card paragraph</div>
+                            </div>
+                            <div class="hexcode">#271c19</div>
+                        </a>
+                        <!-- card tag background -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white"></div>
+                                <div class="hues-title">Card tag background</div>
+                            </div>
+                            <div class="hexcode">#fffffe</div>
+                        </a>
+                        <!-- card tag text -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle black"></div>
+                                <div class="hues-title">Card tag text</div>
+                            </div>
+                            <div class="hexcode">#271c19</div>
+                        </a>
+                        <!-- card highlight -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle purple"></div>
+                                <div class="hues-title">Card highlight</div>
+                            </div>
+                            <div class="hexcode">#9656a1</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4TH - BIO -->
+    <section id="bio" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 bio-container">
+                    <div class="left">
+                        <h2>Who's behind Happy Hues?</h2>
+                        <p class="top">Hi there 👋 My name is <a href="#">Mackenzie Child</a>, I'm the maker of Happy Hues. One of my favorite things to do is launch fun, useful and sometimes silly side-projects that I think should exist outside my head :)</p>
+                        <p>My goal with Happy Hues was to try to remove the issue where you know you like a color palette, but you're unsure about how to apply it to your design or illustration. I built this site to not only give you color inspiration, but also give you an example as to how and where you could use the colors.</p>
+                    </div>
+                    <div class="right text-right">
+                        <img src="./assets/images/mackenzie-child.jpeg" alt="Owner">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row bio-card">
+                <div class="col-12">
+                    <h3>Some of my other projects</h3>
+                    <div class="project-card-container">
+                        <div class="project-card card-1">
+                            <h4>Colorables</h4>
+                            <p>Free printable coloring pages for adults & kids alike.</p>
+                        </div>
+                        <div class="project-card card-2">
+                            <h4>Acme Logos</h4>
+                            <p>Professional placeholder logos for your designs projects.</p>
+                        </div>
+                        <div class="project-card card-3">
+                            <h4>Blocks wireframe</h4>
+                            <p>Makes wireframing as simple as drag & drop.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <h3>Want to hear about what I build next? </h3>
+                    <div class="form-container">
+                        <div class="input-wrap">
+                            <label for="fname">First name</label>
+                            <input type="text" placeholder="Your name">
+                        </div>
+                        <div class="input-wrap">
+                            <label for="fname">Email address</label>
+                            <input type="email" placeholder="you@example.com">
+                        </div>
+                        <a href="#" class="btn-submit">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="section-hues">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h3>This sections hues</h3>
+                    <p class="sub-title">Click to copy the hex code to your clipboard</p>
+                </div>
+
+                <!-- Elements -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h4>Elements</h4>
+                    <div class="hues-wrap">
+                        <!-- background -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle salmon"></div>
+                                <div class="hues-title">Background</div>
+                            </div>
+                            <div class="hexcode">#ffc0ad</div>
+                        </a>
+                        <!-- headline -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle black"></div>
+                                <div class="hues-title">Headline</div>
+                            </div>
+                            <div class="hexcode">#271c19</div>
+                        </a>
+                        <!-- paragraph -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle black"></div>
+                                <div class="hues-title">Paragraph</div>
+                            </div>
+                            <div class="hexcode">#271c19</div>
+                        </a>
+                        <!-- link -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle purple"></div>
+                                <div class="hues-title">Link</div>
+                            </div>
+                            <div class="hexcode">#9656a1</div>
+                        </a>
+                        <!-- card background -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white"></div>
+                                <div class="hues-title">Card background</div>
+                            </div>
+                            <div class="hexcode">#fffffe</div>
+                        </a>
+                        <!-- card headline -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle black"></div>
+                                <div class="hues-title">Card headline</div>
+                            </div>
+                            <div class="hexcode">#271c19</div>
+                        </a>
+                        <!-- card paragrpah -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle black"></div>
+                                <div class="hues-title">Card paragraph</div>
+                            </div>
+                            <div class="hexcode">#271c19</div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Newsleter -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h4>Newsletter</h4>
+                    <div class="hues-wrap">
+                        <!-- background -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle salmon"></div>
+                                <div class="hues-title">Background</div>
+                            </div>
+                            <div class="hexcode">#ffc0ad</div>
+                        </a>
+                        <!-- form input -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white"></div>
+                                <div class="hues-title">Form input</div>
+                            </div>
+                            <div class="hexcode">#fffffe</div>
+                        </a>
+                        <!-- label & placeholder -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle black"></div>
+                                <div class="hues-title">Label & placeholder</div>
+                            </div>
+                            <div class="hexcode">#271c19</div>
+                        </a>
+                        <!-- form button -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle purple"></div>
+                                <div class="hues-title">Form button</div>
+                            </div>
+                            <div class="hexcode">#9656a1</div>
+                        </a>
+                        <!-- form button text -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white"></div>
+                                <div class="hues-title">Form button text</div>
+                            </div>
+                            <div class="hexcode">#fffffe</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 footer-container">
+                    <div class="footer-main">
+                        <img src="./assets/images/svg/happy-hues-logo.svg" alt="logo">
+                        <p>Happy Hues, plus the majority of my side-projects, are designed & built visually (without code) using Webflow 🙌🚀</p>
+                    </div>
+                    <div class="social-links">
+                        <h3>Find me</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Web</a>
+                            </li>
+                            <li>
+                                <a href="#">Youtube</a>
+                            </li>
+                            <li>
+                                <a href="#">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="#">Twitter</a>
+                            </li>
+                            <li>
+                                <a href="#">Webflow</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 right-reserved">
+                    <p>©2019 Mackenzie Child. All Rights Reserved.</p>
+                </div>
+
+                <div class="row section-hues">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h3>This sections hues</h3>
+                    <p class="sub-title">Click to copy the hex code to your clipboard</p>
+                </div>
+
+                <!-- Elements -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="hues-wrap">
+                        <!-- background -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle brown"></div>
+                                <div class="hues-title">Background</div>
+                            </div>
+                            <div class="hexcode">#55423d</div>
+                        </a>
+                        <!-- headline -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white"></div>
+                                <div class="hues-title">Headline</div>
+                            </div>
+                            <div class="hexcode">#fffffe</div>
+                        </a>
+                        <!-- paragraph -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle white-smoke"></div>
+                                <div class="hues-title">Paragraph</div>
+                            </div>
+                            <div class="hexcode">#fff3ec</div>
+                        </a>
+                        <!-- card background -->
+                        <a href="#" class="hues-button">
+                            <div class="hues">
+                                <div class="circle pink"></div>
+                                <div class="hues-title">Links</div>
+                            </div>
+                            <div class="hexcode">#e78fb3</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+
+</body>
+</html>
